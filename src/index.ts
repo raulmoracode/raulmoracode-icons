@@ -1,10 +1,10 @@
 //ENTERPRISE
-export { Apple } from './icons/enterprise/Apple';
-export { Github } from './icons/enterprise/Github';
+export { Apple } from './icons/enterprise/Apple.js';
+export { Github } from './icons/enterprise/Github.js';
 
 //SO
-export { Linux } from './icons/so/Linux';
-export { Windows } from './icons/so/Windows';
+export { Linux } from './icons/so/Linux.js';
+export { Windows } from './icons/so/Windows.js';
 
 //COMMON
-export { Star } from './icons/common/Star';
+export { Star } from './icons/common/Star.js';

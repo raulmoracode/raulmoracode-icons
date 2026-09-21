@@ -10,6 +10,26 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
+    },
+    "./Apple": {
+      "types": "./dist/icons/enterprise/Apple.d.ts",
+      "import": "./dist/icons/enterprise/Apple.js"
+    },
+    "./Github": {
+      "types": "./dist/icons/enterprise/Github.d.ts",
+      "import": "./dist/icons/enterprise/Github.js"
+    },
+    "./Linux": {
+      "types": "./dist/icons/so/Linux.d.ts",
+      "import": "./dist/icons/so/Linux.js"
+    },
+    "./Windows": {
+      "types": "./dist/icons/so/Windows.d.ts",
+      "import": "./dist/icons/so/Windows.js"
+    },
+    "./Star": {
+      "types": "./dist/icons/common/Star.d.ts",
+      "import": "./dist/icons/common/Star.js"
     }
   },
   "files": [
