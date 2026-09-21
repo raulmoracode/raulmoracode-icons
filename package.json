@@ -1,6 +1,6 @@
 {
   "name": "@raulmoracode/icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Icon library for RaulMoraCode projects",
   "type": "module",
   "main": "./dist/index.js",
