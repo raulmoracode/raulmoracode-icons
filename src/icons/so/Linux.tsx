@@ -12,11 +12,7 @@ export function Linux({
       width={size}
       height={size}
       viewBox="0 0 448 512"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      fill={color}
       className={className || 'size-4'}
       style={style}
       {...props}
