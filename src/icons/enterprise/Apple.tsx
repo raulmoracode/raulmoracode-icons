@@ -1,8 +1,8 @@
-import type { IconProps } from "../../types";
+import type { IconProps } from '../../types';
 
 export function Apple({
   size = 24,
-  color = "currentColor",
+  color = 'currentColor',
   className,
   style,
   ...props
@@ -13,7 +13,7 @@ export function Apple({
       height={size}
       viewBox="0 0 24 24"
       fill={color}
-      className={className || "size-4 shrink-0"}
+      className={className || 'size-4 shrink-0'}
       style={style}
       {...props}
       aria-hidden="true"
