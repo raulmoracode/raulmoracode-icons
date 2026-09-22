@@ -7,4 +7,5 @@ export { Linux } from './icons/so/Linux.js';
 export { Windows } from './icons/so/Windows.js';
 
 //COMMON
+export { CopyCheck } from './icons/common/CopyCheck.js';
 export { Star } from './icons/common/Star.js';

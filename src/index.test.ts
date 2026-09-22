@@ -7,6 +7,11 @@ describe('Index exports', () => {
     expect(typeof icons.Apple).toBe('function');
   });
 
+  it('exports CopyCheck', () => {
+    expect(icons.CopyCheck).toBeDefined();
+    expect(typeof icons.CopyCheck).toBe('function');
+  });
+
   it('exports Github', () => {
     expect(icons.Github).toBeDefined();
     expect(typeof icons.Github).toBe('function');
@@ -27,11 +32,11 @@ describe('Index exports', () => {
     expect(typeof icons.Star).toBe('function');
   });
 
-  it('exports exactly 5 icons', () => {
+  it('exports exactly 6 icons', () => {
     const exports = Object.keys(icons);
-    expect(exports).toHaveLength(5);
+    expect(exports).toHaveLength(6);
     expect(exports.sort()).toEqual(
-      ['Apple', 'Github', 'Linux', 'Star', 'Windows'].sort()
+      ['Apple', 'CopyCheck', 'Github', 'Linux', 'Star', 'Windows'].sort()
     );
   });
 });
