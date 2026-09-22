@@ -1,8 +1,8 @@
-import type { IconProps } from '../../types';
+import type { IconProps } from "../../types";
 
 export function Apple({
   size = 24,
-  color = 'currentColor',
+  color = "currentColor",
   className,
   style,
   ...props
@@ -12,12 +12,8 @@ export function Apple({
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className || 'size-4'}
+      fill={color}
+      className={className || "size-4 shrink-0"}
       style={style}
       {...props}
       aria-hidden="true"
