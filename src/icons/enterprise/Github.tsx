@@ -12,11 +12,7 @@ export function Github({
       width={size}
       height={size}
       viewBox="0 0 496 512"
-      fill="none"
-      stroke={color}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      fill={color}
       className={className || 'size-4'}
       style={style}
       {...props}
