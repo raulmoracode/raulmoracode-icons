@@ -7,4 +7,5 @@ export { Linux } from './icons/so/Linux.js';
 export { Windows } from './icons/so/Windows.js';
 
 //COMMON
+export { Copy } from './icons/common/Copy.js';
 export { Star } from './icons/common/Star.js';
