@@ -19,7 +19,7 @@ describe('Linux', () => {
   it('applies custom color', () => {
     const { container } = render(<Linux color="#ff0000" />);
     const svg = container.querySelector('svg');
-    expect(svg).toHaveAttribute('stroke', '#ff0000');
+    expect(svg).toHaveAttribute('fill', '#ff0000');
   });
 
   it('applies custom className', () => {
