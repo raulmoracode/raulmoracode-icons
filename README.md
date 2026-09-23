@@ -21,6 +21,9 @@ function App() {
       <Linux size={24} />
       <Windows size={24} />
       <Star size={24} />
+      <Copy size={24} />
+      <CopyCheck size={24} />
+      <Globe size={24} />
     </div>
   );
 }
@@ -29,12 +32,14 @@ function App() {
 ## Available Icons
 
 ### Brands
+
 - `Apple` - Apple logo
 - `Github` - GitHub logo
 - `Linux` - Linux logo
 - `Windows` - Windows logo
 
 ### Common
+
 - `Star` - Star icon
 
 ## Props
