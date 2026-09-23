@@ -12,9 +12,19 @@ describe('Index exports', () => {
     expect(typeof icons.Copy).toBe('function');
   });
 
+  it('exports CopyCheck', () => {
+    expect(icons.CopyCheck).toBeDefined();
+    expect(typeof icons.CopyCheck).toBe('function');
+  });
+
   it('exports Github', () => {
     expect(icons.Github).toBeDefined();
     expect(typeof icons.Github).toBe('function');
+  });
+
+  it('exports Globe', () => {
+    expect(icons.Globe).toBeDefined();
+    expect(typeof icons.Globe).toBe('function');
   });
 
   it('exports Linux', () => {
@@ -32,11 +42,11 @@ describe('Index exports', () => {
     expect(typeof icons.Star).toBe('function');
   });
 
-  it('exports exactly 6 icons', () => {
+  it('exports exactly 8 icons', () => {
     const exports = Object.keys(icons);
-    expect(exports).toHaveLength(6);
+    expect(exports).toHaveLength(8);
     expect(exports.sort()).toEqual(
-      ['Apple', 'Copy', 'Github', 'Linux', 'Star', 'Windows'].sort()
+      ['Apple', 'Copy', 'CopyCheck', 'Github', 'Globe', 'Linux', 'Star', 'Windows'].sort()
     );
   });
 });
