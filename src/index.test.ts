@@ -7,6 +7,11 @@ describe('Index exports', () => {
     expect(typeof icons.Apple).toBe('function');
   });
 
+  it('exports Copy', () => {
+    expect(icons.Copy).toBeDefined();
+    expect(typeof icons.Copy).toBe('function');
+  });
+
   it('exports CopyCheck', () => {
     expect(icons.CopyCheck).toBeDefined();
     expect(typeof icons.CopyCheck).toBe('function');
@@ -37,12 +42,13 @@ describe('Index exports', () => {
     expect(typeof icons.Star).toBe('function');
   });
 
-  it('exports exactly 7 icons', () => {
+  it('exports exactly 8 icons', () => {
     const exports = Object.keys(icons);
-    expect(exports).toHaveLength(7);
+    expect(exports).toHaveLength(8);
     expect(exports.sort()).toEqual(
       [
         'Apple',
+        'Copy',
         'CopyCheck',
         'Github',
         'Globe',
