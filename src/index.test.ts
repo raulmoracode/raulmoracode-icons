@@ -41,7 +41,15 @@ describe('Index exports', () => {
     const exports = Object.keys(icons);
     expect(exports).toHaveLength(7);
     expect(exports.sort()).toEqual(
-      ['Apple', 'CopyCheck', 'Github', 'Globe', 'Linux', 'Star', 'Windows'].sort()
+      [
+        'Apple',
+        'CopyCheck',
+        'Github',
+        'Globe',
+        'Linux',
+        'Star',
+        'Windows',
+      ].sort()
     );
   });
 });
