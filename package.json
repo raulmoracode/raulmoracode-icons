@@ -44,9 +44,7 @@
     "check": "biome check .",
     "format": "biome format --write .",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "dev": "vite --config vite.config.ts",
-    "dev:build": "vite build --config vite.config.ts"
+    "test:watch": "vitest"
   },
   "peerDependencies": {
     "react": "^19.0.0"
