@@ -1,11 +1,24 @@
 {
   "name": "@raulmoracode/icons",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Icon library for RaulMoraCode projects",
+  "license": "MIT",
+  "author": "RaulMoraCode",
+  "homepage": "https://github.com/raulmoracode/raulmoracode-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raulmoracode/raulmoracode-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "raulmoracode"
+  ],
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -30,17 +43,33 @@
     "./Star": {
       "types": "./dist/icons/common/Star.d.ts",
       "import": "./dist/icons/common/Star.js"
-    }
+    },
+    "./Copy": {
+      "types": "./dist/icons/common/Copy.d.ts",
+      "import": "./dist/icons/common/Copy.js"
+    },
+    "./CopyCheck": {
+      "types": "./dist/icons/common/CopyCheck.d.ts",
+      "import": "./dist/icons/common/CopyCheck.js"
+    },
+    "./Globe": {
+      "types": "./dist/icons/common/Globe.d.ts",
+      "import": "./dist/icons/common/Globe.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "README.md"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
+    "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "pnpm run build",
     "check": "biome check .",
     "format": "biome format --write .",
     "test": "vitest run",
