@@ -56,6 +56,14 @@
       "types": "./dist/icons/common/Globe.d.ts",
       "import": "./dist/icons/common/Globe.js"
     },
+    "./Chain": {
+      "types": "./dist/icons/common/Chain.d.ts",
+      "import": "./dist/icons/common/Chain.js"
+    },
+    "./Mail": {
+      "types": "./dist/icons/common/Mail.d.ts",
+      "import": "./dist/icons/common/Mail.js"
+    },
     "./Website": {
       "types": "./dist/icons/common/Website.d.ts",
       "import": "./dist/icons/common/Website.js"
