@@ -11,7 +11,8 @@ npm install @raulmoracode/icons
 ## Usage
 
 ```tsx
-import { Apple, Github, Linux, Windows, Star } from "@raulmoracode/icons";
+import { Apple, Github, Linux, Windows } from "@raulmoracode/icons";
+import { Star, Chain, Copy, CopyCheck, Globe, Mail, Website } from "@raulmoracode/icons";
 
 function App() {
   return (
@@ -21,26 +22,44 @@ function App() {
       <Linux size={24} />
       <Windows size={24} />
       <Star size={24} />
+      <Chain size={24} />
       <Copy size={24} />
       <CopyCheck size={24} />
       <Globe size={24} />
+      <Mail size={24} />
+      <Website size={24} />
     </div>
   );
 }
 ```
 
+Each icon can also be imported individually to keep your bundle small:
+
+```tsx
+import { Mail } from "@raulmoracode/icons/Mail";
+```
+
 ## Available Icons
 
-### Brands
+### Enterprise
 
 - `Apple` - Apple logo
 - `Github` - GitHub logo
+
+### SO
+
 - `Linux` - Linux logo
 - `Windows` - Windows logo
 
 ### Common
 
-- `Star` - Star icon
+- `Chain` - Chain link
+- `Copy` - Copy
+- `CopyCheck` - Copy with check
+- `Globe` - Globe
+- `Mail` - Envelope
+- `Star` - Star
+- `Website` - Browser window
 
 ## Props
 
@@ -59,17 +78,17 @@ interface IconProps {
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Build
-npm run build
+pnpm run build
 
 # Check formatting
-npm run check
+pnpm run check
 
 # Format code
-npm run format
+pnpm run format
 
 # Run tests
-npm test
+pnpm test
 ```
