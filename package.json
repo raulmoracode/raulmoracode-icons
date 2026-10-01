@@ -64,6 +64,10 @@
       "types": "./dist/icons/common/Mail.d.ts",
       "import": "./dist/icons/common/Mail.js"
     },
+    "./Website": {
+      "types": "./dist/icons/common/Website.d.ts",
+      "import": "./dist/icons/common/Website.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [
