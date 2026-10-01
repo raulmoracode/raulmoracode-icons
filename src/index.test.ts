@@ -47,9 +47,14 @@ describe('Index exports', () => {
     expect(typeof icons.Chain).toBe('function');
   });
 
-  it('exports exactly 9 icons', () => {
+  it('exports Mail', () => {
+    expect(icons.Mail).toBeDefined();
+    expect(typeof icons.Mail).toBe('function');
+  });
+
+  it('exports exactly 10 icons', () => {
     const exports = Object.keys(icons);
-    expect(exports).toHaveLength(9);
+    expect(exports).toHaveLength(10);
     expect(exports.sort()).toEqual(
       [
         'Apple',
@@ -59,6 +64,7 @@ describe('Index exports', () => {
         'Github',
         'Globe',
         'Linux',
+        'Mail',
         'Star',
         'Windows',
       ].sort()

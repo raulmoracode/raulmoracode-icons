@@ -11,4 +11,5 @@ export { Chain } from './icons/common/Chain.js';
 export { Copy } from './icons/common/Copy.js';
 export { CopyCheck } from './icons/common/CopyCheck.js';
 export { Globe } from './icons/common/Globe.js';
+export { Mail } from './icons/common/Mail.js';
 export { Star } from './icons/common/Star.js';

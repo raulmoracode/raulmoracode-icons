@@ -60,6 +60,10 @@
       "types": "./dist/icons/common/Chain.d.ts",
       "import": "./dist/icons/common/Chain.js"
     },
+    "./Mail": {
+      "types": "./dist/icons/common/Mail.d.ts",
+      "import": "./dist/icons/common/Mail.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [
