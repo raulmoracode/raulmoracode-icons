@@ -56,6 +56,10 @@
       "types": "./dist/icons/common/Globe.d.ts",
       "import": "./dist/icons/common/Globe.js"
     },
+    "./Chain": {
+      "types": "./dist/icons/common/Chain.d.ts",
+      "import": "./dist/icons/common/Chain.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [
