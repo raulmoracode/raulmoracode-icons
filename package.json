@@ -56,6 +56,10 @@
       "types": "./dist/icons/common/Globe.d.ts",
       "import": "./dist/icons/common/Globe.js"
     },
+    "./Website": {
+      "types": "./dist/icons/common/Website.d.ts",
+      "import": "./dist/icons/common/Website.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [
