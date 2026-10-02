@@ -40,9 +40,9 @@
       "types": "./dist/icons/so/Windows.d.ts",
       "import": "./dist/icons/so/Windows.js"
     },
-    "./Star": {
-      "types": "./dist/icons/common/Star.d.ts",
-      "import": "./dist/icons/common/Star.js"
+    "./Chain": {
+      "types": "./dist/icons/common/Chain.d.ts",
+      "import": "./dist/icons/common/Chain.js"
     },
     "./Copy": {
       "types": "./dist/icons/common/Copy.d.ts",
@@ -56,13 +56,13 @@
       "types": "./dist/icons/common/Globe.d.ts",
       "import": "./dist/icons/common/Globe.js"
     },
-    "./Chain": {
-      "types": "./dist/icons/common/Chain.d.ts",
-      "import": "./dist/icons/common/Chain.js"
-    },
     "./Mail": {
       "types": "./dist/icons/common/Mail.d.ts",
       "import": "./dist/icons/common/Mail.js"
+    },
+    "./Star": {
+      "types": "./dist/icons/common/Star.d.ts",
+      "import": "./dist/icons/common/Star.js"
     },
     "./Website": {
       "types": "./dist/icons/common/Website.d.ts",
@@ -81,6 +81,8 @@
   },
   "scripts": {
     "build": "tsc",
+    "generate": "node scripts/generate-registry.mjs",
+    "generate:check": "node scripts/generate-registry.mjs --check",
     "prepublishOnly": "pnpm run build",
     "check": "biome check .",
     "format": "biome format --write .",

@@ -30,7 +30,14 @@
     }
   },
   "files": {
-    "includes": ["src/**/*", "*.json", "*.md", "*.yml", "*.yaml"],
+    "includes": [
+      "src/**/*",
+      "scripts/**/*",
+      "*.json",
+      "*.md",
+      "*.yml",
+      "*.yaml"
+    ],
     "ignoreUnknown": true
   }
 }

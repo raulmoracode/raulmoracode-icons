@@ -1,3 +1,4 @@
+/** Envelope */
 import type { IconProps } from '../../types';
 
 export function Mail({

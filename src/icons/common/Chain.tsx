@@ -1,3 +1,4 @@
+/** Chain link */
 import type { IconProps } from '../../types';
 
 export function Chain({
