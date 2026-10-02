@@ -15,3 +15,4 @@ export { Mail } from './icons/common/Mail.js';
 export { Share } from './icons/common/Share.js';
 export { Star } from './icons/common/Star.js';
 export { Website } from './icons/common/Website.js';
+export { X } from './icons/common/X.js';

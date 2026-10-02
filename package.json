@@ -72,6 +72,10 @@
       "types": "./dist/icons/common/Website.d.ts",
       "import": "./dist/icons/common/Website.js"
     },
+    "./X": {
+      "types": "./dist/icons/common/X.d.ts",
+      "import": "./dist/icons/common/X.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [

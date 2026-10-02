@@ -14,7 +14,7 @@ npm install @raulmoracode/icons
 ```tsx
 import { Apple, Github } from "@raulmoracode/icons";
 import { Linux, Windows } from "@raulmoracode/icons";
-import { Chain, Copy, CopyCheck, Globe, Mail, Share, Star, Website } from "@raulmoracode/icons";
+import { Chain, Copy, CopyCheck, Globe, Mail, Star, Website, X } from "@raulmoracode/icons";
 
 function App() {
   return (
@@ -28,9 +28,9 @@ function App() {
       <CopyCheck size={24} />
       <Globe size={24} />
       <Mail size={24} />
-      <Share size={24} />
       <Star size={24} />
       <Website size={24} />
+      <X size={24} />
     </div>
   );
 }
@@ -70,9 +70,9 @@ The icon lists and the usage example above are generated from `src/icons` by
 - `CopyCheck` - Copy with check
 - `Globe`
 - `Mail` - Envelope
-- `Share` - Upload arrow with tray
 - `Star`
 - `Website` - Browser window
+- `X` - Cross
 <!-- icons-common:end -->
 
 ## Props
