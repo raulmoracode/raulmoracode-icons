@@ -60,6 +60,10 @@
       "types": "./dist/icons/common/Mail.d.ts",
       "import": "./dist/icons/common/Mail.js"
     },
+    "./Share": {
+      "types": "./dist/icons/common/Share.d.ts",
+      "import": "./dist/icons/common/Share.js"
+    },
     "./Star": {
       "types": "./dist/icons/common/Star.d.ts",
       "import": "./dist/icons/common/Star.js"
