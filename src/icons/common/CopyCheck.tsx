@@ -1,3 +1,4 @@
+/** Copy with check */
 import type { IconProps } from '../../types';
 
 export function CopyCheck({

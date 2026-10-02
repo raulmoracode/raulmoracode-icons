@@ -1,3 +1,4 @@
+/** GitHub logo */
 import type { IconProps } from '../../types';
 
 export function Github({

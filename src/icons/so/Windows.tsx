@@ -1,3 +1,4 @@
+/** Windows logo */
 import type { IconProps } from '../../types';
 
 export function Windows({

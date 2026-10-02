@@ -1,3 +1,4 @@
+/** Browser window */
 import type { IconProps } from '../../types';
 
 export function Website({

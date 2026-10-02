@@ -1,3 +1,4 @@
+/** Linux logo */
 import type { IconProps } from '../../types';
 
 export function Linux({
